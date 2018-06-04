@@ -1,6 +1,9 @@
 # pythonsampler
 ## Basics
-sampler.sh -- bash script to run the code. Usage: ./sampler.sh inputfile.txt outputfile.txt n_pts_generated
+sampler.sh -- bash script to run the code.
+
+Usage: ./sampler.sh inputfile.txt outputfile.txt n_pts_generated
+
 PointsGenerator.py -- main python code that contains the PointsGenerator() class for parsing files and generating points.
 sobol_seq.py -- sobol sequence generator taken from https://github.com/naught101/sobol_seq.git
 
