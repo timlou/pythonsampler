@@ -154,7 +154,7 @@ class PointsGenerator():
         #output file specified
         if outfile is not None:
             fout = open(outfile, 'w')
-            writer = csv.writer(fout, lineterminator='\n')
+            writer = csv.writer(fout, lineterminator='\n', delimiter=' ')
             
         # generate the same points again
         if reset:
